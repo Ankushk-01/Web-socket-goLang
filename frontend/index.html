@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Socket</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="center">
+        <h1>Chatt Application</h1>
+        <h3 id="chat-header">
+            Currently in Chat: General
+        </h3>
+        <h3 id="connection-header">
+            Connected to web-socket : false
+        </h3>
+        <form id="chatroom-selection">
+            <label for="chatroom">Chatroom:</label>
+            <input type="text" id="chatroom" name="chatroom" placeholder="Enter Chatroom"><br><br>
+            <input type="submit" value="change chatroom">
+        </form><br><br>
+
+        <textarea name="messagearea" id="chatmessages" cols="50" rows="5" readonly placeholder="Welcome to chat room"
+            name="chatmessages"></textarea>
+        <br>
+        <form id="chatroom-message">
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" placeholder="Message"><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+
+        <div class="login-div">
+            <form action="" class="login-form" id="login-form" name="login-form">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+                <label for="password">Username:</label>
+                <input type="password" name="password" id="password"> <br><br>
+                <input type="submit" value="login" >
+            </form>
+
+        </div>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+</html>

@@ -1,0 +1,20 @@
+
+# Compiled Go binary
+*.exe
+*.out
+*.test
+
+# Log files and results of running go test
+/log/
+/test_results/
+
+# Generated protobuf and gRPC code
+*.pb.go
+# Dependencies
+/go.sum
+/go.mod
+
+# IDE-specific directories and files
+.idea/
+.vscode/
+
